@@ -1,0 +1,34 @@
+**Synchronous Execution :** 
+
+Javascript executes code line by line. Almost every programming language executes code line by line. 
+But
+There will be some kind of code which will take long time to execute..
+
+
+**Asynchronous Execution :** 
+
+Multiple resources. Multiple executions at a time.
+
+But Js is Single-threaded, it cannot do multiple things at the same time.
+
+Js can act asynchronously with the help of a friend.
+
+Enter Browser API
+
+Whenever Js Engine encounters a piece of code that will take a long time to execute, it hands over its execution to the browser.
+
+Browser now takes care of that task and when it's finished, it pings the Js engine that the task is done.
+
+That’s how Js engine and Browser work together to make Javascript capable of asynchronous programming.
+
+
+
+
+Topic to be cover
+
+> Timeouts and intervals
+> Callbacks
+> Promises
+> async await
+> Event loop
+

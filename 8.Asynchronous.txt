@@ -1,9 +1,0 @@
-
-Topic to be cover
-
-> Timeouts and intervals
-> Callbacks
-> Promises
-> async await
-> Event loop
-
