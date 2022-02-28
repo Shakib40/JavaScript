@@ -1,0 +1,30 @@
+React is a free and open-source front-end JavaScript library
+for building user interfaces based on UI components. 
+It is maintained by Meta
+
+render phase is:
+
+jsx ---------------> react element -------------->  
+     createElement()  ------------(Javascript Object)
+
+React.createElement( 
+    "div", 
+    { 'class' : "container" }, 
+    React.createElement(
+        "div", 
+        { id : "heading1" },
+        "Hello world!" 
+    )
+)
+
+commit phase is:
+
+
+what is JSX: 
+
+we use babel to compile the jsx inti javascript
+
+
+props get passed to the component (similar to function parameters) 
+whereas state is managed within the component
+ (similar to variables declared within a function).
