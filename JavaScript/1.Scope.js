@@ -3,6 +3,7 @@
 //2 Local Scope
 // Block Scope
 
+
 let a = 10;
 function outer (){
     let b = 20;

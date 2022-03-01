@@ -15,28 +15,32 @@
 // outer()
 
 
-function outer () {
-    let counter = 0;
-    function inner () {
-        counter++;
-        console.log(counter);
-    }
-    return inner
-}
+// function outer () {
+//     let counter = 0;
+//     function inner () {
+//         counter++;
+//         console.log(counter);
+//     }
+//     return inner
+// }
  
-const fn = outer()
-fn()
-fn()
-fn()
+// const fn = outer()
+
+// fn()
+// fn()
+// fn()
 
 
 
 
 // Parent scope
+
 // let b = 3;
 // function impureFun(a){
 //     return a + b;
 // }
+// b = 5
+
 // console.log(impureFun(1));
 
 // b =4;
@@ -55,20 +59,25 @@ fn()
 // function pureFun(a,b){
 //     return a + b;
 // }
+
 // console.log("Pure",pureFun(4,6));
+// console.log("Pure",pureFun(4,6));
+// console.log("Pure",pureFun(4,6));
+
 
 // but this is not closure
 
 
 // function outer(){
-// var a= 'shakib';
+// var a= 0;
 // function inner(){
-// console.log(a);
+// console.log(a++);
 // }
 // inner();
 // }
 
-
+// outer();
+// outer();
 // outer();
 
 
@@ -76,10 +85,12 @@ fn()
 // function outer(){
 // var a= 71;
 // function inner(){
-// console.log(a);
+// console.log(a++);
 // }
 // return inner();
 // }
+// outer();
+// outer();
 // outer();
 
 
@@ -128,16 +139,16 @@ fn()
 
 // let var const
 
-for(let i = 1; i <= 10; i++){
+// for(let i = 1; i <= 10; i++){
   
-    const log = () => {
-        console.log(i);
-    } //closure function
+//     const log = () => {
+//         console.log(i);
+//     } //closure function
   
-    setTimeout(log, 100); //callback  call functions after 100ms delay
-}
+//     setTimeout(log, 100); //callback  call functions after 100ms delay
+// }
 
-function aaa(){
-    let a = 10;
-}
+// function aaa(){
+//     let a = 10;
+// }
 

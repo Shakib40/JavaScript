@@ -10,6 +10,7 @@
 // new binding
 // default binding
 
+
 // Order of precedence
 // new Binding
 // explicit binding
@@ -53,6 +54,7 @@
 
 
 // new binding
+
 // function Person(name , age , email){
 //     this.name = name;
 //     this.age = age;
@@ -142,7 +144,7 @@
 // itsMe();
 
 
-//Function Contructor
+// Function Contructor
 // function Horse(name, age, city, country) {
 //     this.name = name // property
 //     this.age = age // property
